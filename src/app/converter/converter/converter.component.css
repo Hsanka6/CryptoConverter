@@ -45,3 +45,21 @@
   display: flex;
   justify-content: center;
 }
+
+
+
+.button-wrapper button {
+  align-self:center;
+  color: white;
+  background-color: #1e90ff;
+  padding: .5rem 2rem;
+  border: 1px solid #1e90ff;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: .8rem;
+}
+
+
+.button-wrapper button:hover{
+  filter: brightness(110%);
+}
